@@ -1,0 +1,33 @@
+{
+  "name": "mirocow/yii2-delivery",
+  "description": "Yii 2 delivery service",
+  "keywords": [
+    "yii",
+    "yii2",
+    "delivery",
+    "widget"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/mirocow/yii2-delivery/issues?state=open",
+    "wiki": "http://www.yiidoc.com/wiki/",
+    "source": "https://github.com/mirocow/yii2-delivery"
+  },
+  "authors": [
+    {
+      "name": "Mirocow",
+      "email": "mr.mirocow@gmail.com",
+      "homepage": "http://www.mirocow.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "mirocow\\delivery\\": "src"
+    }
+  }
+}
